@@ -4,7 +4,7 @@ A python script for controlling a zig-zag segmented LED matrix strip with a Rasp
  ![LEDesignController_Kirby](https://user-images.githubusercontent.com/26748231/193985309-b930d845-b889-4a88-9405-7ea9b89d9629.gif)
 
 ## Usage:
-This script requires two additional files within the same directory to work properly; a text file containing the pattern to be displayed and a `config.cfg` file with various configurations for said pattern and the matrix strip. These must be formatted in a paticular way to work properly with the script, but can be made easily using this designer tool on Windows. As such, it is not recommended to type these files manually, but it can be done if formatted as follows.
+This script requires two additional files within the same directory to work properly; a text file containing the pattern to be displayed and a `config.cfg` file with various configurations for said pattern and the matrix strip. These must be formatted in a paticular way to work properly with the script, but can be made easily using [this designer tool](https://github.com/bakermcgee/LEDesigner) on Windows. As such, it is not recommended to type these files manually, but it can be done if formatted as follows.
 
 1. Config file:
    - Each property must be set on its own separate line, lines that start with the ! character will be ignored:
